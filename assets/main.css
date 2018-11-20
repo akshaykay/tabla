@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 10px 30px;
+  width: 150px;
+  transition: all 0.07s;
+}
+
+.pressed {
+  background-color: green;
+  border: 2px solid green;
+  transform: scale(1.5);
+}
+
+span.sound {
+  display: block;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+kbd {
+  font-size: 24px;
+}
+
+div#root {
+  margin-top: 30%;
+}
